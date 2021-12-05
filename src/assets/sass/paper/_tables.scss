@@ -1,0 +1,95 @@
+.table {
+    thead {
+        background-color: #E7F0F3;
+    }
+    thead th {
+        font-style: normal;
+        font-weight: bold!important;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1C7690;
+        border-left: 1px solid #1C7690;
+        border-right: 1px solid #1C7690;
+        border-bottom: none!important;
+    }
+    >thead>tr>th {
+        border-bottom-width: 0;
+        font-size: $font-size-h5;
+        font-weight: $font-weight-light;
+    }
+    .radio,
+    .checkbox {
+        margin-top: 0;
+        margin-bottom: 22px;
+        padding: 0;
+        width: 15px;
+    }
+    >thead>tr>th,
+    >tbody>tr>th,
+    >tfoot>tr>th,
+    >thead>tr>td,
+    >tbody>tr>td,
+    >tfoot>tr>td {
+        padding: 4px 15px;
+        vertical-align: middle;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1C7690;
+        border-left: 1px solid #1C7690;
+        border-right: 1px solid #1C7690;
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+    .th-description {
+        max-width: 150px;
+    }
+    .td-price {
+        font-size: 26px;
+        font-weight: $font-weight-light;
+        margin-top: 5px;
+        text-align: right;
+    }
+    .td-total {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-h5;
+        padding-top: 20px;
+        text-align: right;
+    }
+    .td-actions .btn {
+        &.btn-sm,
+        &.btn-xs {
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+    }
+    >tbody>tr {
+        position: relative;
+    }
+}
+
+tbody>tr:nth-of-type(2n+1) {
+    background-color: #fff!important;
+}
+
+tbody>tr:nth-of-type(2n) {
+    background-color: #E7F0F3;
+}
+
+>thead>tr>th,
+>tbody>tr>th,
+>tfoot>tr>th,
+>thead>tr>td,
+>tbody>tr>td,
+>tfoot>tr>td {
+    padding: 4px 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C7690;
+    border-left: 1px solid #1C7690;
+    border-right: 1px solid #1C7690;
+    border-bottom: none!important;
+}
