@@ -1,4 +1,4 @@
-This is a vue project that converted figma with full responsive.
+This is a Bootstrap Vue project that converted figma with full responsive.
 
 ![4](https://user-images.githubusercontent.com/95412201/144766995-74a642c1-df1c-4fe9-8123-15ebf7ef18a4.jpg)
 ![1](https://user-images.githubusercontent.com/95412201/144766996-a6da7498-404a-48e6-a60a-be8f9f336c7a.jpg)
